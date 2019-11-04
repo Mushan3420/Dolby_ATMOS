@@ -9,3 +9,4 @@ WIN10禁用签名教程
 原Realtek驱动：https://github.com/pal1000/Realtek-UAD-generic/releases
 
 
+![image](https://github.com/shiyu1314/Dolby_ATMOS/blob/master/a.png)
