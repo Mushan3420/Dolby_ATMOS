@@ -1,4 +1,4 @@
-测试环境win10 64位 1903版本
+测试环境win10 64位 1909版本
 
 WIN10禁用签名教程
 
@@ -10,3 +10,5 @@ WIN10禁用签名教程
 
 
 ![image](https://github.com/shiyu1314/Dolby_ATMOS/blob/master/a.png)
+
+QQ交流群：926520933
