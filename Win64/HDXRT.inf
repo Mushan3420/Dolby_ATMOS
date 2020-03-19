@@ -29,13 +29,110 @@ DolbyAPOvlldp130.dll=222,DAX3
 DolbyDspVlldp.dll=222,DAX3
 DAX3API.exe=222,DAX3
 CaptureStreamMonitor.dll=222,DAX3
-Headphone_Default_Generic_Default_DolbyAtmos_vlldp1.2.xml=222,DAX3
-Headphone_Default_Generic_Large_DolbyAtmos_vlldp1.2.xml=222,DAX3
-Headphone_Default_Generic_Medium_DolbyAtmos_vlldp1.2.xml=222,DAX3
-Headphone_Default_Generic_Small_DolbyAtmos_vlldp1.2.xml=222,DAX3
+;;; Headphone tunings
+; Dolby Atmos
+Headphone_Default_Generic_Default_DolbyAtmos.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAtmos.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAtmos.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAtmos.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos.xml = 222,DAX3
+; Dolby Atmos Speaker System
+Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystem.xml = 222,DAX3
+; Dolby Audio
+Headphone_Default_Generic_Default_DolbyAudio.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAudio.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAudio.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAudio.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio.xml = 222,DAX3
+; Dolby Audio Premium
+Headphone_Default_Generic_Default_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioPremium.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioPremium.xml = 222,DAX3
+; Dolby Audio Speaker System
+Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioSpeakerSystem.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioSpeakerSystem.xml = 222,DAX3
+; Gaming
+Headphone_Default_Generic_Default_Gaming.xml = 222,DAX3
+Headphone_Default_Generic_Large_Gaming.xml = 222,DAX3
+Headphone_Default_Generic_Medium_Gaming.xml = 222,DAX3
+Headphone_Default_Generic_Small_Gaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_Gaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_Gaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_Gaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_Gaming.xml = 222,DAX3
+; Dolby Atmos Speaker System For Gaming
+Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystemForGaming.xml = 222,DAX3
+; Dolby Atmos Speaker System (VLLDP1.2)
+Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222,DAX3
+; Dolby Atmos (VLLDP1.2)
+Headphone_Default_Generic_Default_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos_VLLDP1.2.xml = 222,DAX3
+; Dolby Audio (VLLDP1.2)
+Headphone_Default_Generic_Default_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio_VLLDP1.2.xml = 222,DAX3
+; Dolby Audio Premium (VLLDP1.2)
+Headphone_Default_Generic_Default_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Large_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Medium_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Default_Generic_Small_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioPremium_VLLDP1.2.xml = 222,DAX3
+; Speaker tunings
+DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72.xml
+DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72_settings.xml
+DEV_0298_SUBSYS_1D721701_PCI_SUBSYS_17011D72.xml = 222,DAX3
+DEV_0298_SUBSYS_1D721701_PCI_SUBSYS_17011D72_settings.xml = 222,DAX3
 Default.xml=222,DAX3
-Runtime.xml=222,DAX3
 Default_settings.xml=222,DAX3
+Runtime.xml=222,DAX3
 
 [DestinationDirs]
 DefaultDestDir=10 ; %SystemRoot%
@@ -141,6 +238,7 @@ PETrust=true
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0623
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0B00
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0287
+
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
 RTAIODAT.DAT
@@ -158,12 +256,16 @@ DolbyAPOvlldp130.dll
 DolbyDspVlldp.dll
 DAX3API.exe
 CaptureStreamMonitor.dll
-Headphone_Default_Generic_Small_DolbyAtmos_vlldp1.2.xml
-Headphone_Default_Generic_Medium_DolbyAtmos_vlldp1.2.xml
-Headphone_Default_Generic_Large_DolbyAtmos_vlldp1.2.xml
-Headphone_Default_Generic_Default_DolbyAtmos_vlldp1.2.xml
-Default.xml
-Default_settings.xml
+DEV_0298_SUBSYS_1D721701_PCI_SUBSYS_17011D72.xml
+DEV_0298_SUBSYS_1D721701_PCI_SUBSYS_17011D72_settings.xml
+Headphone_Default_Generic_Default_DolbyAtmos_VLLDP1.2.xml
+Headphone_Default_Generic_Large_DolbyAtmos_VLLDP1.2.xml
+Headphone_Default_Generic_Medium_DolbyAtmos_VLLDP1.2.xml
+Headphone_Default_Generic_Small_DolbyAtmos_VLLDP1.2.xml
+Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos_VLLDP1.2.xml
+Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos_VLLDP1.2.xml
+Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos_VLLDP1.2.xml
+Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos_VLLDP1.2.xml
 
 [DAX3Runtime.CopyList]
 Runtime.xml
@@ -185,7 +287,7 @@ AddProperty  = OEMCustomBranding.AddProperty
 RegisterDlls = SfxFx.RegisterDlls, DAX3.RegisterDlls
 
 [IntcAzAudModel.NTamd64.HW]
-AddReg=HdAudSecurity.AddReg
+AddReg=HdAudSecurity.AddReg, FriendlyName.AddReg
 
 [IntcAzAudModel.NTamd64.Services]
 AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
@@ -224,6 +326,9 @@ DeviceVendorWebSite,,,,"http://www.realtek.com/" ; Place your URL here
 ; FILE_DEVICE_SOUND
 HKR,,DeviceType,0x10001,0x0000001D
 ; SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RWX_RES_RWX HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)"
+
+[FriendlyName.AddReg]
+HKR,,FriendlyName,,%ExtendedFriendlyName%
 
 [SfxFx.RegisterDlls]
 11,,RltkAPOU64.dll,1
@@ -1183,7 +1288,7 @@ HKLM,%MediaCategories%\%GUID.IntrSubWoofer%,Display,1,00,00,00,00
 MfgName="Realtek"
 OrganizationName="Realtek Semiconductor Corp."
 PackageDisplayName="HD Audio Driver"
-
+ExtendedFriendlyName = "Realtek(R) Audio"
 DelInterfaceKey      = "DelInterfaceKey"
 
 MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"

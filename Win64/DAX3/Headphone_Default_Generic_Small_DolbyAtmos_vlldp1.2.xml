@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xml_version value="3.3.0"/>
-    <dtt_version value="0.1.0.6"/>
+    <dtt_version value=""/>
     <constant>
-        <band_20_freq fs_44100="65,136,223,332,467,634,841,1098,1416,1812,2302,2909,3663,4598,5756,7194,8976,11186,13927,17326" fs_48000="47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688"/>
-        <ieq_detailed target="117,133,188,176,141,149,175,185,185,200,236,242,228,213,182,132,110,68,-27,-240"/>
-        <ieq_balanced target="67,95,172,163,168,201,189,242,196,221,192,186,168,139,102,57,35,9,-55,-235"/>
-        <ieq_warm target="-419,-112,75,116,113,160,165,80,61,79,98,121,64,70,44,-71,-33,-100,-238,-411"/>
+        <band_20_freq fs_44100="43,129,215,301,431,603,775,947,1206,1550,2067,2756,3618,4651,5685,7063,8958,11025,13781,18777" fs_48000="47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688"/>
+        <ieq_detailed target="150,142,188,216,189,195,202,199,210,225,230,236,235,235,214,165,112,49,-24,-217"/>
+        <ieq_balanced target="157,167,218,218,203,188,192,192,205,213,218,209,193,159,134,97,71,22,-90,-283"/>
+        <ieq_warm target="114,146,183,169,170,128,103,90,98,126,127,140,96,85,80,66,38,-32,-132,-275"/>
         <array_20_n192 target="-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
         <array_20_zero target="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
     </constant>
@@ -46,14 +46,14 @@
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
                 <dialog-enhancer-enable value="1"/>
-                <dialog-enhancer-amount value="10"/>
+                <dialog-enhancer-amount value="5"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
                 <ieq-enable value="1"/>
                 <ieq-amount value="10"/>
-                <ieq-bands-set preset="ieq_detailed"/>
+                <ieq-bands-set preset="ieq_balanced"/>
                 <mi-dialog-enhancer-steering-enable value="1"/>
                 <mi-dv-leveler-steering-enable value="1"/>
                 <mi-ieq-steering-enable value="1"/>
@@ -74,7 +74,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -98,7 +98,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="7"/>
+                <volume-leveler-amount value="4"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -234,7 +234,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -258,7 +258,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="7"/>
+                <volume-leveler-amount value="4"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -372,8 +372,8 @@
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
                 <ieq-enable value="1"/>
-                <ieq-amount value="10"/>
-                <ieq-bands-set preset="ieq_detailed"/>
+                <ieq-amount value="8"/>
+                <ieq-bands-set preset="ieq_balanced"/>
                 <mi-dialog-enhancer-steering-enable value="0"/>
                 <mi-dv-leveler-steering-enable value="0"/>
                 <mi-ieq-steering-enable value="0"/>
@@ -394,7 +394,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -418,7 +418,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="4"/>
+                <volume-leveler-amount value="0"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -554,7 +554,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -714,7 +714,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -848,7 +848,7 @@
                 <dialog-enhancer-enable value="1"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
-                <graphic-equalizer-enable value="1"/>
+                <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
                 <ieq-enable value="0"/>
@@ -874,7 +874,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -898,7 +898,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="5"/>
+                <volume-leveler-amount value="2"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -1008,7 +1008,7 @@
                 <dialog-enhancer-enable value="1"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
-                <graphic-equalizer-enable value="1"/>
+                <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
                 <ieq-enable value="0"/>
@@ -1034,7 +1034,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -1058,7 +1058,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="5"/>
+                <volume-leveler-amount value="2"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -1168,7 +1168,7 @@
                 <dialog-enhancer-enable value="1"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
-                <graphic-equalizer-enable value="1"/>
+                <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
                 <ieq-enable value="0"/>
@@ -1194,7 +1194,7 @@
                     <ch_08 preset="array_20_zero"/>
                     <ch_09 preset="array_20_zero"/>
                 </process-optimizer-bands>
-                <regulator-enable value="1"/>
+                <regulator-enable value="0"/>
                 <regulator-overdrive value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-speaker-dist-enable value="0"/>
@@ -1218,7 +1218,7 @@
                 <virtual-bass-src-freqs value="35,160"/>
                 <volmax-boost value="64"/>
                 <volume-leveler-enable value="1"/>
-                <volume-leveler-amount value="5"/>
+                <volume-leveler-amount value="2"/>
                 <volume-leveler-in-target value="-320"/>
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
@@ -1319,9 +1319,9 @@
                     <ch_09 preset="array_20_zero"/>
                 </audio-optimizer-bands>
                 <bass-enhancer-enable value="0"/>
-                <bass-enhancer-boost value="144"/>
-                <bass-enhancer-cutoff-frequency value="100"/>
-                <bass-enhancer-width value="32"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
@@ -1447,7 +1447,7 @@
                 <postgain value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-overdrive value="0"/>
-                <regulator-timbre-preservation value="12"/>
+                <regulator-timbre-preservation value="16"/>
                 <regulator-speaker-dist-enable value="0"/>
                 <regulator-tuning>
                     <threshold_high preset="array_20_zero"/>
